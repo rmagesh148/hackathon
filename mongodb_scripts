@@ -6,20 +6,23 @@ use hackathondb
 
 #inserting values for user services
 
+#Shops scripts and Products scripts to be added
+
 db.userservices.insert(
+{
 	"geoLocationOnPoints" : {
 		"lat": "30.16785836",
 		"lon": "74.87279797"
-	}
+	},
 	"geoLocationOnRadians" : {
 		"lat": "30.16785836",
 		"lon": "74.87279797"
-	}
+	},
 	"timeInHour":"1230",
 	"cosineHour":"cosine value of the hour",
 	"sineHour":"sine value of the hour",
 	"day":"Wednesday",
 	"dayInput":"3",
 	"userId":"rmagesh"
-
-)
+	
+})
