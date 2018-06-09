@@ -26,3 +26,158 @@ db.userservices.insert(
 	"userId":"rmagesh"
 	
 })
+
+#Shops store collection
+
+db.shopmetadata.insert(
+{
+	"shopNameId": 1,
+	"shopName": "Starbucks",
+	"shopIds": [208,  26, 189, 206, 181,  50, 129, 217, 120,  93]
+	
+},
+{
+	"shopNameId": 2,
+	"shopName": "McDonald’s",
+	"shopIds": [222,  73, 243,  44,   1,  25, 173, 215, 111, 130]
+
+},
+{
+	"shopNameId": 3,
+	"shopName": "Subway",
+	"shopIds": [75,  82,   6,  31,  27, 211, 154, 136, 220,  54]
+
+},
+{
+	"shopNameId": 4,
+	"shopName": "Taco Bell",
+	"shopIds": [109, 224, 190,  81,  67, 156, 248, 162, 234,  40]
+
+},
+{
+	"shopNameId": 5,
+	"shopName": "Burger King",
+	"shopIds": [63,  86, 238, 197, 113, 192, 218, 151,  37, 180]
+
+},
+{
+	"shopNameId": 6,
+	"shopName": "Wendy's",
+	"shopId": [8,   9, 169, 127, 178, 196, 231, 121, 112,  34]
+
+},
+{
+	"shopNameId": 7,
+	"shopName": "Dunkin' Donuts",
+	"shopId": [122, 193, 133,  51, 200, 138,  62,  16, 213,  74]
+
+},
+{
+	"shopNameId": 8,
+	"shopName": "Chick-fil-A",
+	"shopId": [183, 171,  99, 160,  92, 174, 157, 184, 223, 144]
+
+},
+{
+	"shopNameId": 9,
+	"shopName": "Pizza Hut",
+	"shopId": [87,  80,  10,  48,  18, 226,  29,  72,  42, 204]
+
+},
+{
+	"shopNameId": 10,
+	"shopName": "Domino's",
+	"shopId": [95,  52,  89, 236,  65,  49, 107,  20,  24,  12]
+
+},
+{
+	"shopNameId": 11,
+	"shopName": "Panera Bread",
+	"shopId": [161,  94, 125, 146, 152, 177,  78, 149,  14, 221]
+
+},
+{
+	"shopNameId": 12,
+	"shopName": "Sonic Drive-In",
+	"shopId": [131,   3, 249,  41,  79,   4, 244,  76, 104, 143]
+
+},
+{
+	"shopNameId": 13,
+	"shopName": "KFC",
+	"shopId": [60,  59, 123, 150, 233, 175,  33, 159, 186, 134]
+
+},
+{
+	"shopNameId": 14,
+	"shopName": "Olive Garden",
+	"shopId": [108, 235, 132,  39,  56, 245,   5, 163, 201, 216]
+
+},
+{
+	"shopNameId": 15,
+	"shopName": "Chipotle",
+	"shopId": [212, 225,  58,   2, 168, 100,  91, 172,  71,  77]
+
+},
+{
+	"shopNameId": 16,
+	"shopName": "Juiceland",
+	"shopId": [209, 145, 142,  88,  17,  43, 128, 140, 237, 205]
+
+},
+{
+	"shopNameId": 17,
+	"shopName": "Jamba Juice",
+	"shopId": [170, 207, 137, 227,  55,  23, 118,  11, 102,  21]
+
+},
+{
+	"shopNameId": 18,
+	"shopName": "Dairy Queen",
+	"shopId": [179, 106, 188,  57,  96, 126,  22, 158, 203, 232]
+
+},
+{
+	"shopNameId": 19,
+	"shopName": "Chili's Grill & Bar",
+	"shopId": [114, 103, 167,  84,   7, 240, 166,  61,  38,  69]
+
+},
+{
+	"shopNameId": 20,
+	"shopName": "IHOP",
+	"shopId": [28, 119, 116, 105, 124, 148, 115, 242, 101, 187]
+
+},
+{
+	"shopNameId": 21,
+	"shopName": "Papa John's Pizza",
+	"shopId": [202,  19,  97, 219,  35,  45, 141,  13,  46,  83]
+
+},
+{
+	"shopNameId": 22,
+	"shopName": "Jack in the Box",
+	"shopId": [185, 139, 239,  68, 241,  98, 155, 230,  70, 247]
+
+},
+{
+	"shopNameId": 23,
+	"shopName": "Inn-n-Out",
+	"shopId": [246, 176, 117, 214, 191,  36,  85, 147,  32, 110]
+
+},
+{
+	"shopNameId": 24,
+	"shopName": "PTerrys",
+	"shopId": [90, 153, 165, 210, 198,  66, 250,  30,  15, 228]
+
+},
+{
+	"shopNameId": 25,
+	"shopName": "Denny's",
+	"shopId": [194,  64, 164, 195, 199,  47, 229,  53, 182, 135]
+
+}
+)
