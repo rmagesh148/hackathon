@@ -33,42 +33,42 @@ db.shopmetadata.insert([
 {
 	"shopNameId": 1,
 	"shopName": "Starbucks",
-	"shopIds": [208,  26, 189, 206, 181,  50, 129, 217, 120,  93]
+	"shopId": [208,  26, 189, 206, 181,  50, 129, 217, 120,  93]
 	
 },
 {
 	"shopNameId": 2,
-	"shopName": "McDonald’s",
-	"shopIds": [222,  73, 243,  44,   1,  25, 173, 215, 111, 130]
+	"shopName": "McDonalds",
+	"shopId": [222,  73, 243,  44,   1,  25, 173, 215, 111, 130]
 
 },
 {
 	"shopNameId": 3,
 	"shopName": "Subway",
-	"shopIds": [75,  82,   6,  31,  27, 211, 154, 136, 220,  54]
+	"shopId": [75,  82,   6,  31,  27, 211, 154, 136, 220,  54]
 
 },
 {
 	"shopNameId": 4,
 	"shopName": "Taco Bell",
-	"shopIds": [109, 224, 190,  81,  67, 156, 248, 162, 234,  40]
+	"shopId": [109, 224, 190,  81,  67, 156, 248, 162, 234,  40]
 
 },
 {
 	"shopNameId": 5,
 	"shopName": "Burger King",
-	"shopIds": [63,  86, 238, 197, 113, 192, 218, 151,  37, 180]
+	"shopId": [63,  86, 238, 197, 113, 192, 218, 151,  37, 180]
 
 },
 {
 	"shopNameId": 6,
-	"shopName": "Wendy's",
+	"shopName": "Wendys",
 	"shopId": [8,   9, 169, 127, 178, 196, 231, 121, 112,  34]
 
 },
 {
 	"shopNameId": 7,
-	"shopName": "Dunkin' Donuts",
+	"shopName": "Dunkin Donuts",
 	"shopId": [122, 193, 133,  51, 200, 138,  62,  16, 213,  74]
 
 },
@@ -86,7 +86,7 @@ db.shopmetadata.insert([
 },
 {
 	"shopNameId": 10,
-	"shopName": "Domino's",
+	"shopName": "Dominos",
 	"shopId": [95,  52,  89, 236,  65,  49, 107,  20,  24,  12]
 
 },
@@ -176,7 +176,7 @@ db.shopmetadata.insert([
 },
 {
 	"shopNameId": 25,
-	"shopName": "Denny's",
+	"shopName": "Dennys",
 	"shopId": [194,  64, 164, 195, 199,  47, 229,  53, 182, 135]
 
 }
