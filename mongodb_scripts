@@ -29,7 +29,7 @@ db.userservices.insert(
 
 #Shops store collection
 
-db.shopmetadata.insert(
+db.shopmetadata.insert([
 {
 	"shopNameId": 1,
 	"shopName": "Starbucks",
@@ -180,4 +180,4 @@ db.shopmetadata.insert(
 	"shopId": [194,  64, 164, 195, 199,  47, 229,  53, 182, 135]
 
 }
-)
+])
