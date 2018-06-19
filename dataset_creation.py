@@ -13,7 +13,7 @@ def truncate(point):
 	return math.floor(float(point) * 10 ** 4)/10**4
 
 
-def new_points(point):
+def new_points_subtract(point):
 	new_point = float(point) - 0.0001
 	new_point = math.floor(float(new_point) * 10 ** 4)/10**4
 	return new_point
