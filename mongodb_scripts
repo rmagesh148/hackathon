@@ -140,7 +140,7 @@ db.shopmetadata.insert([
 },
 {
 	"shopNameId": 19,
-	"shopName": "Chili's Grill & Bar",
+	"shopName": "Chilis Grill & Bar",
 	"shopId": [114, 103, 167,  84,   7, 240, 166,  61,  38,  69]
 
 },
@@ -152,7 +152,7 @@ db.shopmetadata.insert([
 },
 {
 	"shopNameId": 21,
-	"shopName": "Papa John's Pizza",
+	"shopName": "Papa Johns Pizza",
 	"shopId": [202,  19,  97, 219,  35,  45, 141,  13,  46,  83]
 
 },
