@@ -13,34 +13,29 @@ def truncate(point):
 	return math.floor(float(point) * 10 ** 4)/10**4
 
 
-# def new_points_subtract(point):
-# 	new_point = float(point) - 0.0001
-# 	new_point = math.floor(float(new_point) * 10 ** 4)/10**4
-# 	return new_point
+def choose_random_value_to_sub_add_the_values():
+	return random.uniform(1.0000, 5.0000)
+
 
 def calculate_points_subtract(point):
 	temp_list = []
-	new_point_one = math.floor((float(point) - 0.0001) * 10 ** 4)/10**4
-	new_point_two = math.floor((float(point) - 0.0002) * 10 ** 4)/10**4
-	new_point_three = math.floor((float(point) - 0.0003) * 10 ** 4)/10**4
-	new_point_four = math.floor((float(point) - 0.0004) * 10 ** 4)/10**4
+	new_point_one = math.floor((float(point) - truncate(choose_random_value_to_sub_add_the_values())) * 10 ** 4)/10**4
+	new_point_two = math.floor((float(point) - truncate(choose_random_value_to_sub_add_the_values())) * 10 ** 4)/10**4
+	new_point_three = math.floor((float(point) - truncate(choose_random_value_to_sub_add_the_values())) * 10 ** 4)/10**4
 	temp_list.append(new_point_one)
 	temp_list.append(new_point_two)
 	temp_list.append(new_point_three)
-	temp_list.append(new_point_four)
 
 	return temp_list
 
 def calculate_points_addition(point):
 	temp_list = []
-	new_point_one = math.floor((float(point) + 0.0001) * 10 ** 4)/10**4
-	new_point_two = math.floor((float(point) + 0.0002) * 10 ** 4)/10**4
-	new_point_three = math.floor((float(point) + 0.0003) * 10 ** 4)/10**4
-	new_point_four = math.floor((float(point) + 0.0004) * 10 ** 4)/10**4
+	new_point_one = math.floor((float(point) + truncate(choose_random_value_to_sub_add_the_values())) * 10 ** 4)/10**4
+	new_point_two = math.floor((float(point) + truncate(choose_random_value_to_sub_add_the_values())) * 10 ** 4)/10**4
+	new_point_three = math.floor((float(point) + truncate(choose_random_value_to_sub_add_the_values())) * 10 ** 4)/10**4
 	temp_list.append(new_point_one)
 	temp_list.append(new_point_two)
 	temp_list.append(new_point_three)
-	temp_list.append(new_point_four)
 
 	return temp_list
 
@@ -82,7 +77,7 @@ def choose_random_product_id_based_on_shop_name_id():
 def main():
 	db = database_connection()
 	count = 0
-	db.datasetservices.drop()
+	db.datasetservicesforno.drop()
 	result_set = db.shopservices.find({}, {"shopGeolocation":1, "shopNameId": 1})
 	for r in result_set:
 		latitude_list, longitude_list = geo_location_list(r["shopGeolocation"])
@@ -107,7 +102,7 @@ def main():
 				"productId" : choose_random_product_id_based_on_shop_name_id()
 				}
 
-				db.datasetservices.insert(dataset_services)
+				db.datasetservicesforno.insert(dataset_services)
 				count = count + 1
 
 	print("Count: " + str(count))
