@@ -18,6 +18,7 @@
   "homepage": "https://github.com/rmagesh148/hackathon#readme",
   "dependencies": {
     "https": "^1.0.0",
-    "mongodb": "^3.0.10"
+    "mongodb": "^3.0.10",
+    "react-native-push-notification": "^3.0.2"
   }
 }
